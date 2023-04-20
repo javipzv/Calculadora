@@ -1,0 +1,113 @@
+header{
+    background: rgb(97, 89, 89);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-top-right-radius: 0.5ch;
+    border-top-left-radius: 0.5ch;
+}
+
+nav p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 1.5ch;
+    line-height: 38px;
+    margin: 0px;
+    padding-left: 2ch;
+}
+
+nav img{
+    height: 3ch;
+    
+}
+
+nav{
+    height: 6vh;
+    background: rgb(97, 73, 170);
+    text-align: left;
+}
+
+button{
+    background-color: gray;
+    color: white;
+    width: 33.3333%;
+    height: 20%;
+    font-size: x-large;
+    display: inline;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.center{
+    float: center;
+}
+
+#resultado_container{
+    float: right;
+    height: 80vh;
+    width: 50%;
+    background: rgb(51, 119, 161);
+    text-align: center;
+    border-bottom-right-radius: 0.5ch;
+}
+
+#resultado{
+    background: rgb(29, 23, 23);
+    height: 60%;
+    width: 90%;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 1.3ch;
+    border-style: solid;
+    border-width: 0.5ch;
+    border-color: rgb(182, 225, 210);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#calculadora_container{
+    float: left;
+    height: 80vh;
+    width: 50%;
+    background: rgb(123, 224, 255);
+    border-bottom-left-radius: 0.5ch;
+}
+
+#calculadora{
+    background: rgb(171, 138, 138);
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 7.5vh;
+}
+
+#result{
+    font-size: xxx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    height: 85vh;
+    line-height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer p{
+    color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4ch;
+}
