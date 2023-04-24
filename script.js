@@ -73,6 +73,9 @@ buttons.forEach(añadirEventButton);
 
 window.addEventListener('keydown', (event) => {
     if (valids.includes(event.key)){
+        if (event.key == "Enter"){
+            event.preventDefault();
+        }
         guardarValor(event, true);
     }
 })
