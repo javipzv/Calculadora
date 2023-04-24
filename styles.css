@@ -1,5 +1,5 @@
 header{
-    background: rgb(97, 89, 89);
+    background: rgb(102, 93, 103);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100px;
     width: 100%;
@@ -35,8 +35,8 @@ nav p a img{
 
 nav{
     height: 6vh;
-    background: rgb(97, 73, 170);
     text-align: left;
+    background: rgb(192, 112, 200);
 }
 
 button{
